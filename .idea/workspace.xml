@@ -2,9 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b6a8e920-f5fb-44df-94fe-a8c51bcfbe89" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/documents/document.service.js" afterPath="$PROJECT_DIR$/app/documents/document.service.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/documents/document.service.js.map" afterPath="$PROJECT_DIR$/app/documents/document.service.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/documents/document.service.ts" afterPath="$PROJECT_DIR$/app/documents/document.service.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/app.module.js" afterPath="$PROJECT_DIR$/app/app.module.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/app.module.js.map" afterPath="$PROJECT_DIR$/app/app.module.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/app.module.ts" afterPath="$PROJECT_DIR$/app/app.module.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/documents/documents.component.js" afterPath="$PROJECT_DIR$/app/documents/documents.component.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/documents/documents.component.js.map" afterPath="$PROJECT_DIR$/app/documents/documents.component.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/documents/documents.component.ts" afterPath="$PROJECT_DIR$/app/documents/documents.component.ts" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -28,19 +31,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="documents.component.ts" pinned="false" current-in-tab="false">
+      <file leaf-file-name="documents.component.ts" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/documents/documents.component.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="525">
-              <caret line="35" column="1" lean-forward="false" selection-start-line="35" selection-start-column="1" selection-end-line="35" selection-end-column="1" />
+            <state relative-caret-position="510">
+              <caret line="34" column="1" lean-forward="true" selection-start-line="34" selection-start-column="1" selection-end-line="34" selection-end-column="1" />
               <folding>
-                <element signature="e#0#42#0" expanded="true" />
+                <element signature="e#0#50#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="document.service.ts" pinned="false" current-in-tab="true">
+      <file leaf-file-name="document.service.ts" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/documents/document.service.ts">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="495">
@@ -55,8 +58,8 @@
       <file leaf-file-name="app.module.ts" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/app.module.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="465">
-              <caret line="31" column="24" lean-forward="false" selection-start-line="31" selection-start-column="24" selection-end-line="31" selection-end-column="24" />
+            <state relative-caret-position="585">
+              <caret line="39" column="25" lean-forward="true" selection-start-line="39" selection-start-column="25" selection-end-line="39" selection-end-column="25" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
               </folding>
@@ -146,7 +149,6 @@
         <option value="$PROJECT_DIR$/app/app-routing.module.ts" />
         <option value="$PROJECT_DIR$/systemjs.config.js" />
         <option value="$PROJECT_DIR$/app/app.component.ts" />
-        <option value="$PROJECT_DIR$/app/documents/documents.component.ts" />
         <option value="$PROJECT_DIR$/app/documents.component.css" />
         <option value="$PROJECT_DIR$/app/documents/documents.component.html" />
         <option value="$PROJECT_DIR$/app/documents/documents.component.css" />
@@ -164,8 +166,9 @@
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/styles.css" />
         <option value="$PROJECT_DIR$/app/proposal/proposal-show.component.ts" />
-        <option value="$PROJECT_DIR$/app/app.module.ts" />
         <option value="$PROJECT_DIR$/app/documents/document.service.ts" />
+        <option value="$PROJECT_DIR$/app/app.module.ts" />
+        <option value="$PROJECT_DIR$/app/documents/documents.component.ts" />
       </list>
     </option>
   </component>
@@ -467,12 +470,12 @@
       <option name="presentableId" value="Default" />
       <updated>1492198140470</updated>
       <workItem from="1492198142412" duration="19420000" />
-      <workItem from="1492535586805" duration="7600000" />
+      <workItem from="1492535586805" duration="8650000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27020000" />
+    <option name="totallyTimeSpent" value="28070000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="3" y="23" width="1299" height="976" extended-state="0" />
@@ -777,32 +780,32 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/documents/documents.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="35" column="1" lean-forward="false" selection-start-line="35" selection-start-column="1" selection-end-line="35" selection-end-column="1" />
-          <folding>
-            <element signature="e#0#42#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/app.module.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="31" column="24" lean-forward="false" selection-start-line="31" selection-start-column="24" selection-end-line="31" selection-end-column="24" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/documents/document.service.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="495">
           <caret line="33" column="1" lean-forward="true" selection-start-line="33" selection-start-column="1" selection-end-line="33" selection-end-column="1" />
           <folding>
             <element signature="e#0#43#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/app.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="585">
+          <caret line="39" column="25" lean-forward="true" selection-start-line="39" selection-start-column="25" selection-end-line="39" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/documents/documents.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="34" column="1" lean-forward="true" selection-start-line="34" selection-start-column="1" selection-end-line="34" selection-end-column="1" />
+          <folding>
+            <element signature="e#0#50#0" expanded="true" />
           </folding>
         </state>
       </provider>

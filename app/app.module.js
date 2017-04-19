@@ -9,6 +9,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 const core_1 = require("@angular/core");
 const platform_browser_1 = require("@angular/platform-browser");
 const forms_1 = require("@angular/forms");
+const http_1 = require("@angular/http");
 const ng_bootstrap_1 = require("@ng-bootstrap/ng-bootstrap");
 const app_component_1 = require("./app.component");
 const homepage_component_1 = require("./homepage/homepage.component");
@@ -26,7 +27,8 @@ AppModule = __decorate([
             platform_browser_1.BrowserModule,
             app_routing_module_1.AppRoutingModule,
             forms_1.FormsModule,
-            ng_bootstrap_1.NgbModule.forRoot()
+            ng_bootstrap_1.NgbModule.forRoot(),
+            http_1.HttpModule
         ],
         declarations: [
             app_component_1.AppComponent,
