@@ -10,11 +10,13 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 const core_1 = require("@angular/core");
+const router_1 = require("@angular/router");
 const Rx_1 = require("rxjs/Rx");
 const proposal_service_1 = require("./proposal.service");
 let ProposalListComponent = class ProposalListComponent {
-    constructor(proposalService) {
+    constructor(proposalService, router) {
         this.proposalService = proposalService;
+        this.router = router;
         this.proposals = [];
         this.mode = "Observable";
     }
@@ -26,6 +28,10 @@ let ProposalListComponent = class ProposalListComponent {
         this.proposalService.getProposals()
             .subscribe(proposals => this.proposals = proposals, error => this.errorMessage = error);
     }
+    goToShow(proposal) {
+        let link = ['/proposal', proposal.id];
+        this.router.navigate(link);
+    }
 };
 ProposalListComponent = __decorate([
     core_1.Component({
@@ -35,7 +41,8 @@ ProposalListComponent = __decorate([
         styleUrls: ['proposal-list.component.css'],
         providers: [proposal_service_1.ProposalService]
     }),
-    __metadata("design:paramtypes", [proposal_service_1.ProposalService])
+    __metadata("design:paramtypes", [proposal_service_1.ProposalService,
+        router_1.Router])
 ], ProposalListComponent);
 exports.ProposalListComponent = ProposalListComponent;
 //# sourceMappingURL=proposal-list.component.js.map
